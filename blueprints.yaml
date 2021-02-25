@@ -6,11 +6,11 @@ author:
  name: Hibbitts Design
  email: hello@hibbittsdesign.org
  url: http://hibbittsdesign.org
-homepage: https://github.com/hibbitts-design/grav-skeleton-multicourse-hub-site
-demo: http://demo.hibbittsdesign.org/grav-skeleton-multicourse-hub-site
+homepage: https://github.com/hibbitts-design/grav-skeleton-multicourse-hub
+demo: http://demo.hibbittsdesign.org/grav-skeleton-multicourse-hub
 docs: http://learn.hibbittsdesign.org/coursehub
 keywords: open, collaborative, flexbible, git, responsive, basic, course, lms
-bugs: https://github.com/hibbitts-design/grav-skeleton-multicourse-hub-site/issues
+bugs: https://github.com/hibbitts-design/grav-skeleton-multicourse-hub/issues
 license: MIT
 
 dependencies:

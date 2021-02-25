@@ -1,0 +1,35 @@
+form:
+  validation: loose
+  fields:
+    section:
+        type: section
+        title: Add Embedly Card Content
+
+    title:
+      type: text
+      label: Embedly Card Title
+      validate:
+        required: true
+
+    folder:
+      type: hidden
+      default: '@slugify-title'
+
+    route:
+      type: parents
+      label: PLUGIN_ADMIN.PARENT
+      classes: fancy
+      default: '/'
+      validate:
+        required: true
+
+    name:
+      type: hidden
+      default: 'embedlycard'
+
+    visible:
+      type: hidden
+      default: '1'
+
+    blueprint:
+      type: blueprint

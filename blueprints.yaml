@@ -1,0 +1,18 @@
+name: Open Matter MultiCourse Hub Site
+version: 1.0.0
+description: "Grav Open MultiCourse Hub with Git Sync supports an open and collaborative environment for one or more courses, inside or outside of your current platform (e.g. LMS). Includes the new Bootstrap4 Open Matter theme."
+icon: university
+author:
+ name: Hibbitts Design
+ email: hello@hibbittsdesign.org
+ url: http://hibbittsdesign.org
+homepage: https://github.com/hibbitts-design/grav-skeleton-multicourse-hub-site
+demo: http://demo.hibbittsdesign.org/grav-skeleton-multicourse-hub-site
+docs: http://learn.hibbittsdesign.org/coursehub
+keywords: open, collaborative, flexbible, git, responsive, basic, course, lms
+bugs: https://github.com/hibbitts-design/grav-skeleton-multicourse-hub-site/issues
+license: MIT
+
+dependencies:
+  - bootstrap4-open-matter
+  - bootstrap4

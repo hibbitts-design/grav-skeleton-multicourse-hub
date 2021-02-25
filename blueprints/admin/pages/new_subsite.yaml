@@ -1,0 +1,34 @@
+form:
+  validation: loose
+  fields:
+    section:
+        type: section
+        title: Add Subsite
+
+    title:
+      type: text
+      label: Subsite Title
+      validate:
+        required: true
+
+    folder:
+      type: hidden
+      default: '@slugify-title'
+
+    route:
+      type: parents
+      label: PLUGIN_ADMIN.PARENT
+      classes: fancy
+      validate:
+        required: true
+
+    name:
+      type: hidden
+      default: 'subsite'
+
+    visible:
+      type: hidden
+      default: '1'
+
+    blueprint:
+      type: blueprint

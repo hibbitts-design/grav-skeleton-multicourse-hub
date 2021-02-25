@@ -1,0 +1,21 @@
+# Grav Specific
+accounts/*
+!accounts/.*
+config/security.yaml
+data/*
+!data/.*
+plugins/*
+!plugins/.*
+!customadmin
+!themes/bootstrap4/.*
+themes/bootstrap4/*
+bootstrap4-open-matter
+localhost/*
+!localhost/.*
+
+# OS Generated
+.DS_Store*
+thumbs.db
+Icon?
+Thumbs.db
+*.swp

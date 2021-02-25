@@ -1,0 +1,18 @@
+title: 'Open Course Hub'
+default_lang: en
+author:
+  name: 'Site Author'
+  email: siteauthor@email.com
+taxonomies:
+  - category
+  - tag
+  - author
+metadata:
+  description: 'A short description of your multicourse hub would go here'
+summary:
+  enabled: true
+  format: short
+  size: 300
+  delimiter: '==='
+blog:
+  route: /home

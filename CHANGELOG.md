@@ -1,3 +1,10 @@
+# v1.0.2
+## 02/26/2021
+
+1. [](#improved)
+    * Updated site name
+    * Updated skeleton screenshot
+
 # v1.0.1
 ## 02/25/2021
 

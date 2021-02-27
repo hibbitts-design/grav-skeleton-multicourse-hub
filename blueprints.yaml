@@ -1,6 +1,6 @@
 name: Open Matter MultiCourse Hub Site
 version: 1.0.2
-description: "Grav Open MultiCourse Hub with Git Sync supports an open and collaborative environment for one or more courses, inside or outside of your current platform (e.g. LMS). Includes the new Bootstrap4 Open Matter theme."
+description: "Grav Open MultiCourse Hub with Git Sync supports an open and collaborative environment for one or more courses, inside or outside of your current platform (e.g. LMS). Includes Admin Panel and Bootstrap4 Open Matter theme."
 icon: university
 author:
  name: Hibbitts Design

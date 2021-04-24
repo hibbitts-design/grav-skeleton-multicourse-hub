@@ -23,6 +23,7 @@ cc_license:
   enabled: false
   type: ccby
   icon: false
+  text: null
 displaycustommenus:
   enabled: false
 custommenu:
@@ -35,3 +36,7 @@ theme_stylesheet: default
 navbar_bg: default
 navbar_bg_color: '#991b1b'
 git_sync_edit_theme_link_location: none
+custom_git_sync_repo_link_icon: null
+custom_git_sync_repo_link_text: null
+custom_git_sync_repo_presentation_link_text: null
+git_sync_repo_link: null

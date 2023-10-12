@@ -1,3 +1,12 @@
+# v1.0.12
+## 10/12/2023
+
+1. [](#improved)
+    * Updated to Grav 1.7.43
+
+1. [](#bugfix)   
+    * Removed example Twitter(X) in sidebar
+
 # v1.0.11
 ## 07/05/2023
 

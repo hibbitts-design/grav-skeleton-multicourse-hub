@@ -1,14 +1,14 @@
 name: Open MultiCourse Hub Site
-version: 1.0.13
-description: "Take LMS-constrained courses to the next level and empower tech-savvy educators with a collaborative and version-controlled workflow using Markdown and Git Sync. Includes example multiple course hub, Admin plugin and Bootstrap4 Open Matter theme."
+version: 1.0.14
+description: "Open MultiCourse Hub uses a customized version of the Bootstrap4 theme to support a collaborative and version-controlled workflow using Markdown and Git Sync. Includes example multiple course hub content and Admin Panel."
 icon: university
 author:
- name: Hibbitts Design
+ name: HibbittsDesign.org
  email: hello@hibbittsdesign.org
- url: http://hibbittsdesign.org
+ url: https://hibbittsdesign.org
 homepage: https://github.com/hibbitts-design/grav-skeleton-multicourse-hub
 demo: https://demo.hibbittsdesign.org/grav-skeleton-open-matter-multi-course-hub-site/
-docs: http://learn.hibbittsdesign.org/coursehub
+docs: https://learn.hibbittsdesign.org/coursehub
 keywords: open, collaborative, flexbible, git, responsive, basic, course, lms
 bugs: https://github.com/hibbitts-design/grav-skeleton-multicourse-hub/issues
 license: MIT

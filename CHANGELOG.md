@@ -1,8 +1,9 @@
 # v1.0.14
-## XX/XX/2024
+## XX/XX/2025
 
 1. [](#improved)
     * Changed skeleton author information to HibbittsDesign.org
+    * Updated default demo pages
 
 # v1.0.13
 ## 07/17/2024

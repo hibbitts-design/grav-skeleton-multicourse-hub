@@ -1,5 +1,5 @@
 # v1.0.14
-## XX/XX/2025
+## 08/25/2025
 
 1. [](#improved)
     * Changed skeleton author information to HibbittsDesign.org

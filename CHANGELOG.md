@@ -1,3 +1,9 @@
+# v1.1.1
+## 09/01/2025
+
+1. [](#improved)
+    * Included example CSS for light and dark theme support in custom.css file
+
 # v1.1.0
 ## 08/31/2025
 

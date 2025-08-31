@@ -1,3 +1,11 @@
+# v1.1.0
+## 08/31/2025
+
+1. [](#improved)
+    * Updated to Grav 1.7.49.2 and Bootstrap4 Open Matter v4.0.0
+    * Updated example CSS for light and dark theme support for custom.css file
+    * Updated default demo pages
+
 # v1.0.14
 ## 08/25/2025
 

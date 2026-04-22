@@ -32,3 +32,9 @@ form input, form select, form textarea, form button, form .selectize-input {
     background: #26a1df;
     color: #fff;
 }
+
+/* Admin 2.0 (SvelteKit/Tailwind) — zoom scales hardcoded px values */
+body:has([data-theme="grav"]),
+[data-theme="grav"] body {
+    zoom: 1.1;
+}

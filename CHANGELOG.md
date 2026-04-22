@@ -1,8 +1,8 @@
-# v1.1.3
-## XX/XX/2026
+# v2.0.0
+## 04/21/2026
 
 1. [](#improved)
-    * Streamlined dependencies to improve Grav 2 compatibility
+    * Updated to Bootstrap4 Open Matter v5.0.0
 
 # v1.1.2
 ## 03/26/2026

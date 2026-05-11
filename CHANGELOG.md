@@ -1,3 +1,9 @@
+# v2.0.4
+## 05/11/2026
+
+1. [](#bugfix)
+    * Fix ChangeLog formatting issue
+
 # v2.0.3
 ## 05/11/2026
 

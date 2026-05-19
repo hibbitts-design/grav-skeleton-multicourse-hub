@@ -1,7 +1,7 @@
 # v2.0.5
 ## 05/19/2026
 
-1. [](#bugfix)
+1. [](#improved)
     * Restore Grav 1.7 Custom Admin plugin (Customadmin Grav2 no longer needed)
 
 # v2.0.4

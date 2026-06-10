@@ -1,3 +1,9 @@
+# v2.0.6
+## 06/10/2026
+
+1. [](#improved)
+    * Added default config for Login plugin to not use built-in CSS
+
 # v2.0.5
 ## 05/19/2026
 

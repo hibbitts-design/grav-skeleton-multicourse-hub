@@ -16,6 +16,8 @@
 <img alt="MultiCourse Hub homepage with course cards for three example courses" src="https://raw.githubusercontent.com/hibbitts-design/grav-skeleton-multicourse-hub/refs/heads/master/screenshots/screenshot.webp" width="100%">
 </a>
 
+<p>Open MultiCourse Hub – Courses homepage</p>
+
 </div>
 
 A complete, pre-configured package that gives several courses an open and collaborative home in a single site, inside or outside your LMS. Each course has its own pages, header image, sidebar, and footer, and content can also be shared between courses. Content is stored as simple Markdown files you can keep locally, with a built-in Admin panel for browser-based editing and no database required. Runs on nearly any web hosting service.
@@ -43,6 +45,8 @@ Other options might be better when you:
 - Want a more refined design and course-aware search – consider [Grav Helios Course Hub](https://github.com/hibbitts-design/grav-skeleton-helios-course-hub)
 - Have only one course – the [Grav Open Course Hub](https://github.com/hibbitts-design/grav-skeleton-course-hub) is a simpler starting point
 - Need real LMS features such as enrollment, grading, or student progress tracking
+
+Already running Open MultiCourse Hub? See [moving to Grav Helios Course Hub](https://github.com/hibbitts-design/grav-skeleton-helios-course-hub#from-grav-open-multicourse-hub) for step-by-step migration guidance.
 
 ## Quick Start
 

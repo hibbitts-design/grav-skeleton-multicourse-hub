@@ -1,3 +1,11 @@
+# v2.1.1
+## XX/XX/2026
+
+1. [](#bugfix)
+    * Fix each course's LMS Home page so it shows that course's reminders and preparations
+1. [](#improved)
+    * Rewrite README in streamlined style with single screenshot
+
 # v2.1.0
 ## 10/01/2026
 

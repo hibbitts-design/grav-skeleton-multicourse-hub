@@ -45,17 +45,9 @@ popularity:
     visitors: '20'
 add_modals:
   -
-    label: 'Add Presentation'
-    blueprint: admin/pages/new_presentation
-    show_in: bar
-  -
     label: 'Add Page with Sidebar'
     blueprint: admin/pages/new_page
     show_in: bar
-  -
-    label: 'Add Presentations List'
-    blueprint: admin/pages/new_presentation_list
-    show_in: dropdown
   -
     label: 'Add Presentation Subsite'
     blueprint: admin/pages/new_subsite

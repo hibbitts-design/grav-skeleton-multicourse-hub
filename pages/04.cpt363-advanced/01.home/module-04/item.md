@@ -10,9 +10,9 @@ header_image_alt_text: 'Paper-based prototype'
 ---
 
 ## How to explore and communicate possible design solutions?
-[Forms and Methods](../../presentations/module-04#/module-04-4)  
-[Design Scenarios](../../presentations/module-04#/module-04-5)  
-[Sketching and Storyboarding](../../presentations/module-04#/module-04-6)  
+[Forms and Methods](https://www.google.ca/slides/about/)  
+[Design Scenarios](https://www.google.ca/slides/about/)  
+[Sketching and Storyboarding](https://www.google.ca/slides/about/)  
 
 ===
 
@@ -22,7 +22,9 @@ header_image_alt_text: 'Paper-based prototype'
 [May 30th Class One-minute Summaries](https://canvas.sfu.ca/courses/55288/assignments)
 
 ### Presented Slides  
-[presentation="cpt363-advanced/presentations/module-04"]
+[Placeholder Slides](https://docs.google.com/presentation/d/e/2PACX-1vSPiOUzmRG4EB6ng8KQgOwZEbVuN2u1d5tGVTiAyzlVuO_o4Zjyli3oAf_U_CqXml_6GMUBR9nUyEYb/pub?start=false&loop=false&delayms=3000)
+
+[googleslides]https://docs.google.com/presentation/d/e/2PACX-1vSPiOUzmRG4EB6ng8KQgOwZEbVuN2u1d5tGVTiAyzlVuO_o4Zjyli3oAf_U_CqXml_6GMUBR9nUyEYb/embed?start=false&loop=false&delayms=3000[/googleslides]
 
 ### Supplemental Materials  
 [UI Sketching Conventions](https://www.youtube.com/watch?v=MwidSAlbEB8)  

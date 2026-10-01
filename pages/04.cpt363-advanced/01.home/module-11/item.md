@@ -10,9 +10,9 @@ header_image_alt_text: 'Dampening and inking the plate'
 ---
 
 ## What are the essentials of effective visual communication?  
-[Typography]((../../presentations/module-02#/module-11-4)  
-[Grouping, Visual Hierarchy and Grids](../../presentations/module-11#/module-11-5)  
-[Visual Design Principles](../../presentations/module-11#/module-11-6)  
+[Typography](https://www.google.ca/slides/about/)  
+[Grouping, Visual Hierarchy and Grids](https://www.google.ca/slides/about/)  
+[Visual Design Principles](https://www.google.ca/slides/about/)  
 
 ===
 
@@ -22,7 +22,9 @@ header_image_alt_text: 'Dampening and inking the plate'
 [Jul 18th Class One-minute Summaries](https://canvas.sfu.ca/courses/55288/assignments)
 
 ### Presented Slides  
-[presentation="cpt363-advanced/presentations/module-11"]
+[Placeholder Slides](https://docs.google.com/presentation/d/e/2PACX-1vSPiOUzmRG4EB6ng8KQgOwZEbVuN2u1d5tGVTiAyzlVuO_o4Zjyli3oAf_U_CqXml_6GMUBR9nUyEYb/pub?start=false&loop=false&delayms=3000)
+
+[googleslides]https://docs.google.com/presentation/d/e/2PACX-1vSPiOUzmRG4EB6ng8KQgOwZEbVuN2u1d5tGVTiAyzlVuO_o4Zjyli3oAf_U_CqXml_6GMUBR9nUyEYb/embed?start=false&loop=false&delayms=3000[/googleslides]
 
 ### Assignments
 [Usability Tested Mockups](https://canvas.sfu.ca/courses/55288/assignments)  

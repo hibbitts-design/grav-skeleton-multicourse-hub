@@ -10,9 +10,9 @@ header_image_alt_text: 'Interview in coffee shop'
 ---
 
 ## How to understand and communicate people's needs and behaviours?
-[Needsfinding](../../presentations/module-08#/module-08-4)  
-[User Models](../../presentations/module-08#/module-08-5)  
-[Stories of Usage](../../presentations/module-08#/module-08-6)  
+[Needsfinding](https://www.google.ca/slides/about/)  
+[User Models](https://www.google.ca/slides/about/)  
+[Stories of Usage](https://www.google.ca/slides/about/)  
 
 ===
 
@@ -22,7 +22,9 @@ header_image_alt_text: 'Interview in coffee shop'
 [Jun 27 Class One-minute Summaries](https://canvas.sfu.ca/courses/55288/assignments)
 
 ### Presented Slides  
-[presentation="cpt363-advanced/presentations/module-08"]
+[Placeholder Slides](https://docs.google.com/presentation/d/e/2PACX-1vSPiOUzmRG4EB6ng8KQgOwZEbVuN2u1d5tGVTiAyzlVuO_o4Zjyli3oAf_U_CqXml_6GMUBR9nUyEYb/pub?start=false&loop=false&delayms=3000)
+
+[googleslides]https://docs.google.com/presentation/d/e/2PACX-1vSPiOUzmRG4EB6ng8KQgOwZEbVuN2u1d5tGVTiAyzlVuO_o4Zjyli3oAf_U_CqXml_6GMUBR9nUyEYb/embed?start=false&loop=false&delayms=3000[/googleslides]
 
 ### Assignments
 [User Research Report](https://canvas.sfu.ca/courses/55288/assignments)  

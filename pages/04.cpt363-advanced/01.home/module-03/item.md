@@ -10,9 +10,9 @@ header_image_alt_text: 'Bullseye'
 ---
 
 ## How to make more strategic design decisions?  
-[User Experience Strategy](../../presentations/module-03#/module-03-4)  
-[Current State and Future State](../../presentations/module-03#/module-03-5)  
-[Journey Mapping](../../presentations/module-03#/module-03-6)  
+[User Experience Strategy](https://www.google.ca/slides/about/)  
+[Current State and Future State](https://www.google.ca/slides/about/)  
+[Journey Mapping](https://www.google.ca/slides/about/)  
 
 ===
 
@@ -22,7 +22,9 @@ header_image_alt_text: 'Bullseye'
 [May 23rd Class One-minute Summaries](https://canvas.sfu.ca/courses/55288/assignments)
 
 ### Presented Slides  
-[presentation="cpt363-advanced/presentations/module-03"]
+[Placeholder Slides](https://docs.google.com/presentation/d/e/2PACX-1vSPiOUzmRG4EB6ng8KQgOwZEbVuN2u1d5tGVTiAyzlVuO_o4Zjyli3oAf_U_CqXml_6GMUBR9nUyEYb/pub?start=false&loop=false&delayms=3000)
+
+[googleslides]https://docs.google.com/presentation/d/e/2PACX-1vSPiOUzmRG4EB6ng8KQgOwZEbVuN2u1d5tGVTiAyzlVuO_o4Zjyli3oAf_U_CqXml_6GMUBR9nUyEYb/embed?start=false&loop=false&delayms=3000[/googleslides]
 
 ### Supplemental Materials  
 [Customer Journey Mapping](https://www.youtube.com/watch?v=a40QYgO-_aM)  

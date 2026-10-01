@@ -1,3 +1,12 @@
+# v2.1.0
+## 10/01/2026
+
+1. [](#improved)
+    * Remove Custom Presentation Link Text option from inherited theme, as legacy Presentation plugin support has been removed
+    * Replace CPT 363 Advanced example presentations with Google Slides placeholders, as used in the other example courses, and remove the Add Presentation and Add Presentations List Admin buttons
+    * Remove unused Presentation plugin configuration
+    * Remove legacy NextGen Editor configuration and README mention
+
 # v2.0.8
 ## 08/24/2026
 

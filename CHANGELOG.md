@@ -1,5 +1,5 @@
 # v2.1.1
-## XX/XX/2026
+## 10/02/2026
 
 1. [](#bugfix)
     * Fix each course's LMS Home page so it shows that course's reminders and preparations

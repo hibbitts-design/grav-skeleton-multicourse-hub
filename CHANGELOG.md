@@ -1,5 +1,5 @@
 # v2.1.2
-## XX/XX/2026
+## 10/02/2026
 
 1. [](#bugfix)
     * Use Grav's default jQuery 3 (jQuery 2.1.4 was removed in Grav 2.0.14)

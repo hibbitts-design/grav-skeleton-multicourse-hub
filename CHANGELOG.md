@@ -5,6 +5,7 @@
     * Use Grav's default jQuery 3 (jQuery 2.1.4 was removed in Grav 2.0.14)
 1. [](#improved)
     * Point documentation links to the README on GitHub and update demo links
+    * Refresh the Courses homepage intro and add example instructor lines
 
 # v2.1.1
 ## 10/02/2026

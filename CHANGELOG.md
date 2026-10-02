@@ -3,8 +3,9 @@
 
 1. [](#bugfix)
     * Fix each course's LMS Home page so it shows that course's reminders and preparations
+    * Replace the Guerrilla UX Testing reading, no longer available, with the Usability Geek article
 1. [](#improved)
-    * Rewrite README in streamlined style with single screenshot
+    * Rewrite README in streamlined style with homepage and interior page screenshots
 
 # v2.1.0
 ## 10/01/2026

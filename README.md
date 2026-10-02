@@ -12,11 +12,9 @@
 
 <p>The predecessor to <a href="https://github.com/hibbitts-design/grav-skeleton-helios-course-hub">Grav Helios Course Hub</a> – a free, open-source package built on <a href="https://getgrav.org">Grav CMS</a> and the <a href="https://github.com/hibbitts-design/grav-theme-bootstrap4-open-matter">Bootstrap4 Open Matter</a> theme, with Markdown file-based content, a built-in Admin panel, and no database required. For new course sites, Helios Course Hub offers a more refined visual experience, automatic single or multi-course setup, and course-aware search.</p>
 
-<a href="https://raw.githubusercontent.com/hibbitts-design/grav-skeleton-multicourse-hub/refs/heads/master/screenshots/screenshot.webp">
-<img alt="MultiCourse Hub homepage with course cards for three example courses" src="https://raw.githubusercontent.com/hibbitts-design/grav-skeleton-multicourse-hub/refs/heads/master/screenshots/screenshot.webp" width="100%">
-</a>
+<a href="https://raw.githubusercontent.com/hibbitts-design/grav-skeleton-multicourse-hub/refs/heads/master/screenshots/screenshot.webp"><img alt="MultiCourse Hub homepage with course cards for three example courses" src="https://raw.githubusercontent.com/hibbitts-design/grav-skeleton-multicourse-hub/refs/heads/master/screenshots/screenshot.webp" width="49%"></a> <a href="https://raw.githubusercontent.com/hibbitts-design/grav-skeleton-multicourse-hub/refs/heads/master/screenshots/screenshot-2.webp"><img alt="Course homepage for CPT363-1 with weekly reminders, required reading, and a course sidebar with LMS links" src="https://raw.githubusercontent.com/hibbitts-design/grav-skeleton-multicourse-hub/refs/heads/master/screenshots/screenshot-2.webp" width="49%"></a>
 
-<p>Open MultiCourse Hub – Courses homepage</p>
+<p>Open MultiCourse Hub – Courses homepage (left) and a course homepage (right)</p>
 
 </div>
 

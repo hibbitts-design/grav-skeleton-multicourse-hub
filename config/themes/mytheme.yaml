@@ -40,3 +40,5 @@ git_sync_edit_theme_link_location: none
 custom_git_sync_repo_link_icon: null
 custom_git_sync_repo_link_text: null
 git_sync_repo_link: null
+header_image_size: slim
+display_syndicate: false

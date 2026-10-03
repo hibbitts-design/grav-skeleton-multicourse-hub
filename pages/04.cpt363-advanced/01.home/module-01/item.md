@@ -19,23 +19,34 @@ hide_git_sync_repo_link: true
 
 ## **What is usability and user experience design?**
 
+[objectives]
+* Describe the differences between HCI, UI, IA, IxD and UX
+* Explain what usability is, and how user-centred design (UCD) supports it
+* Recognize design thinking as an approach to solving problems
+[/objectives]
+
 ### Summaries and Questions  
 [May 9th Class One-minute Summaries](https://canvas.sfu.ca/courses/55288/assignments)
 
 ### Presented Slides  
 [Placeholder Slides](https://docs.google.com/presentation/d/e/2PACX-1vSPiOUzmRG4EB6ng8KQgOwZEbVuN2u1d5tGVTiAyzlVuO_o4Zjyli3oAf_U_CqXml_6GMUBR9nUyEYb/pub?start=false&loop=false&delayms=3000)
 
-[googleslides]https://docs.google.com/presentation/d/e/2PACX-1vSPiOUzmRG4EB6ng8KQgOwZEbVuN2u1d5tGVTiAyzlVuO_o4Zjyli3oAf_U_CqXml_6GMUBR9nUyEYb/embed?start=false&loop=false&delayms=3000[/googleslides]
+[googleslides title="Week 1 placeholder slides"]https://docs.google.com/presentation/d/e/2PACX-1vSPiOUzmRG4EB6ng8KQgOwZEbVuN2u1d5tGVTiAyzlVuO_o4Zjyli3oAf_U_CqXml_6GMUBR9nUyEYb/embed?start=false&loop=false&delayms=3000[/googleslides]
 
 ### Supplemental Materials  
 [Elements of User Experience by Jesse James Garrett](https://qofr.files.wordpress.com/2016/11/q-of-r-presentation-11.pdf)  
-[pdf]https://qofr.files.wordpress.com/2016/11/q-of-r-presentation-11.pdf[/pdf]
+[pdf title="Elements of User Experience by Jesse James Garrett"]https://qofr.files.wordpress.com/2016/11/q-of-r-presentation-11.pdf[/pdf]
 
 ### Handouts
 [Course Overview](https://canvas.sfu.ca/courses/55288/files)  
 
 ### Quick Quiz
-[h5p]https://h5p.org/h5p/embed/213956[/h5p]  
+[h5p title="Week 1 quick quiz"]https://h5p.org/h5p/embed/213956[/h5p]  
 
 ### Recommended Reading  
 [linkpreviewcard url="https://usabilitygeek.com/guerrilla-usability-testing-how-to/"]
+
+[references]
+* Garrett, J. J. (2011). *The Elements of User Experience: User-Centered Design for the Web and Beyond* (2nd ed.). New Riders.
+* Usability Geek. *Guerrilla Usability Testing: How To Introduce It In Your Next UX Project*. [usabilitygeek.com](https://usabilitygeek.com/guerrilla-usability-testing-how-to/)
+[/references]

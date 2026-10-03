@@ -1,4 +1,6 @@
 ---
+simplesearch:
+    process: false
 title: Schedule in LMS
 visible: false
 hide_page_title: true

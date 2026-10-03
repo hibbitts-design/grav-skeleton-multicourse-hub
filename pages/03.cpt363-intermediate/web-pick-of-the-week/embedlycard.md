@@ -1,4 +1,6 @@
 ---
+simplesearch:
+    process: false
 title: 'Web Pick of the Week'
 published: true
 visible: false

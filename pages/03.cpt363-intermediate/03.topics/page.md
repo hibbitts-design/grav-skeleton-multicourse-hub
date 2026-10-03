@@ -2,45 +2,41 @@
 title: Topics
 published: false
 body_classes: topics
-anchors:
-    active: true
-    selectors: h3
 ---
 
-#### [A](#a) | B | C | [D](#d) | E | [F](#f) | G | [H](#h) | I | [J](#j) | [K](#k) | [L](#l) | [M](#m) | N | O | [P](#p) | Q | R | [S](#s) | [T](#t) | [U](#u) | [V](#v) | W | X | Y | Z  
-
-### A
+[topics]
+## A
 [Agile UX](../home/module-02)  
 
-### D
+## D
 [Design Ethics](../home/module-02)  
 [Design Thinking](../home/module-01)  
 
-### F
+## F
 [5-Second Test](../home/module-04)   
 [Five Whys](../home/module-01)  
 
-### H
+## H
 [Hypothesis](../home/module-02)  
 
-### J
+## J
 [Journey Maps](../home/module-03)  
 
-### K
+## K
 [Kano Model](../home/module-03)  
 
-### L
+## L
 [Lean UX](../home/module-02)  
 
-### M
+## M
 [Microsoft Product Reaction Cards](../home/module-02)  
 
-### P
+## P
 [Problem Statement](../home/module-03)  
 [Product Design Principles](../home/module-03)  
 [Prototyping](../home/module-04)   
 
-### S
+## S
 [Scenario-based Design (and Task-Centered Design)](../home/module-04)  
 [Scenarios (and Design Scenarios)](../home/module-04)  
 [Sketching](../home/module-04)
@@ -48,10 +44,10 @@ anchors:
 [Software Design Processes](../home/module-02)  
 [Storyboards](../home/module-04)  
 
-### T
+## T
 [Task Analysis](../home/module-02)  
 
-### U
+## U
 [Usability](../home/module-01)  
 [Usability Goals](../home/module-02)  
 [Usability Testing](../home/module-05)   
@@ -60,5 +56,6 @@ anchors:
 [UX Goals](../home/module-02)  
 [UX Strategy](../home/module-03)  
 
-### V
+## V
 [Value Proposition](../home/module-03)  
+[/topics]

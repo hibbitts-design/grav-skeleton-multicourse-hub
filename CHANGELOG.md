@@ -1,11 +1,20 @@
-# v2.1.2
+# v2.5.0
 ## XX/XX/2026
 
-1. [](#bugfix)
-    * Use Grav's default jQuery 3 (jQuery 2.1.4 was removed in Grav 2.0.14)
+1. [](#new)
+    * Add course search (SimpleSearch plugin), with an all-courses search box on the homepage
+    * Add GitHub-style alerts to the Grav 2.0 version (GitHub Markdown Alerts plugin)
 1. [](#improved)
+    * Update to Bootstrap4 Open Matter 6.0.0
+    * Use the slim header image and hide Syndicate links in the demo
+    * Use the `[topics]` shortcode for the example Topics pages
+    * Add example announcement, course card badge, objectives, references and accessible embed titles to the demo
     * Point documentation links to the README on GitHub and update demo links
     * Refresh the Courses homepage intro and add example instructor lines
+    * Update README for the new features
+1. [](#bugfix)
+    * Use Grav's default jQuery 3 (jQuery 2.1.4 was removed in Grav 2.0.14)
+    * Fix the "Display in course list" setting in the example courses
 
 # v2.1.1
 ## 10/02/2026

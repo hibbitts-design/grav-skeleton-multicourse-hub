@@ -5,7 +5,8 @@
     * Add course search (SimpleSearch plugin), with an all-courses search box on the homepage
     * Add GitHub-style alerts to the Grav 2.0 version (GitHub Markdown Alerts plugin)
 1. [](#improved)
-    * Update to Bootstrap4 Open Matter 6.0.1
+    * Update to Bootstrap4 Open Matter 6.0.2
+    * Update the favicons, including the advanced course's own, to the Grav 2 icon
     * Use the standard header image on home pages and the slim one elsewhere, and hide Syndicate links in the demo
     * Use the `[topics]` shortcode for the example Topics pages
     * Add example announcement, course card badge, objectives, references and accessible embed titles to the demo

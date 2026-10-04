@@ -2,6 +2,7 @@
 title: MultiCourse Home
 visible: false
 show_sidebar: false
+show_search_box: false
 hide_page_title: true
 ---
 

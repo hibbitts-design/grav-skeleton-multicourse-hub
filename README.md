@@ -29,7 +29,7 @@ A complete, pre-configured package that gives several courses an open and collab
 - **A course-ready structure** – weekly units listed newest first, "What's Happening This Week" reminders, plus schedule, resources, and syllabus pages in every course
 - **Rich embeds** – Google Slides, H5P, PDF, iFrame, Embedly, and link preview cards, plus badges and buttons, all with shortcodes, and GitHub-style alerts (`> [!NOTE]`) for callouts (Grav 2.0 version)
 - **Course content shortcodes** – learning objectives, key takeaways, reflections, definitions, examples, case studies, references, and more, with the same shortcodes as Grav Helios Course Hub
-- **Course search** – search the current course from its sidebar, or all courses from the homepage
+- **Course search** – search the current course from its sidebar (an all-courses box can be added to the homepage)
 - **Visual styles** – 2026 Refresh or Classic, with optional Dark Mode
 - **Portable by design** – your content is plain Markdown files on your server, ready to move to any tool or host if your needs change
 

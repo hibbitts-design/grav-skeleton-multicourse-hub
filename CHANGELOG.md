@@ -1,3 +1,9 @@
+# v2.5.6
+## 10/10/2026
+
+1. [](#bugfix)
+    * CPT363-2's UX Techniques Guide uses the accordion page type, so it shows as an accordion when published
+
 # v2.5.5
 ## 10/10/2026
 

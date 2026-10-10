@@ -79,7 +79,15 @@ Open MultiCourse Hub is best suited for authors and educators comfortable with w
 - **Course-specific parts** – each course has its own `sidebar`, `footer`, and `headerimage` pages, and an optional `favicon` page; when a course leaves one out, the site-wide version is used
 - **Within each course** – weekly units, reminders, and pages work as in the [Grav Open Course Hub](https://github.com/hibbitts-design/grav-skeleton-course-hub#course-setup)
 - **Sharing content** – include any page in another course with `[plugin:page-inject](/cpt363-basic/resources)`
-- **Look and options** – under **Themes → My Theme**: Theme Style, Dark Mode, NavBar, chromeless site, and Creative Commons license (see the [Bootstrap4 Open Matter README](https://github.com/hibbitts-design/grav-theme-bootstrap4-open-matter#theme-options) for all options)
+- **Look and options** – under **Themes → My Theme**: Theme Style, Dark Mode, header image height, NavBar, chromeless site, and Creative Commons license (see the [Bootstrap4 Open Matter README](https://github.com/hibbitts-design/grav-theme-bootstrap4-open-matter#theme-options) for all options)
+- **Updating an existing site** – for the latest My Theme options on a site created before Open MultiCourse Hub 2.5.5, replace everything from `form:` in `user/themes/mytheme/blueprints.yaml` with:
+
+  ```yaml
+  extends@:
+    type: bootstrap4-open-matter/blueprints
+    context: 'themes://'
+  ```
+
 - **LMS embedding** – add `/chromeless:true` or `?embedded=true` to any page URL, for example `/cpt363-basic/home/chromeless:true`; each course's `lms-home` page shows just that course's reminders and preparations, ready to embed
 - **Git Sync and "Edit this Page"** – set up Git Sync in the Admin Panel (its own menu item in Grav 2, or Plugins → Git Sync in Grav 1.7), then choose where the link appears and whether it views or edits the source in the theme's Git Sync Link options; add `?edit_link=false` to a page URL to hide the link on that page
 - **Callouts** – start a blockquote with `> [!NOTE]`, `> [!TIP]`, `> [!IMPORTANT]`, `> [!WARNING]`, or `> [!CAUTION]`; the `cpt363-intermediate` Home page's announcement shows an example

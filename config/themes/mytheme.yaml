@@ -2,7 +2,7 @@ navbar_style: navbar-dark
 navbar_position: top
 navbar_breakpoint: md
 theme_css: '2026-modern'
-navbar_look: tint-strong
+navbar_look: tint
 dark_mode:
   mode: disabled
 dropdown:
@@ -36,7 +36,7 @@ custommenu:
     url: 'https://getgrav.org/'
     target: _blank
 navbar_bg: default
-navbar_bg_color: '#7c1557'
+navbar_bg_color: '#3b5682'
 git_sync_edit_theme_link_location: none
 custom_git_sync_repo_link_icon: null
 custom_git_sync_repo_link_text: null

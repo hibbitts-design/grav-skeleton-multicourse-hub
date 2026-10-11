@@ -3,6 +3,9 @@
 
 1. [](#new)
     * The Page TOC plugin is included, for the "On this page" list on module pages (version 3.2.5 in the Grav 1.7 package)
+1. [](#improved)
+    * Weekly pages renamed from `module-NN` to `week-NN`, so they aren't confused with modules
+    * CPT363-3's Module Readings renamed to Weekly Readings, with "Week N" titles
 
 # v2.5.6
 ## 10/10/2026

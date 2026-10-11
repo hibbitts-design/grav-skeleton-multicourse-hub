@@ -1,5 +1,5 @@
 ---
-title: Module Readings
+title: Weekly Readings
 published: true
 child_type: embedlycard
 visible: true

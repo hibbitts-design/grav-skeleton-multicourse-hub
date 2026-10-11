@@ -94,6 +94,7 @@ Open MultiCourse Hub is best suited for authors and educators comfortable with w
 - **Course content shortcodes** – wrap content in `[objectives]`, `[key-takeaways]`, `[reflection]`, `[definition]`, `[example]`, `[case-study]`, `[project-brief]`, `[process-note]`, `[feedback-requested]`, `[announcement]`, `[exercise]`, `[references]`, or `[excerpt]`; see Week 1 of `cpt363-advanced` for `[objectives]` and `[references]`
 - **Topics index** – wrap a list of `## A`, `## B`, … sections in `[topics]...[/topics]` for an automatic A–Z index; see `cpt363-advanced/topics`
 - **Search** – the SimpleSearch plugin is included; to keep a page out of results, add `simplesearch: process: false` to its frontmatter (each course's `lms-home` page does this)
+- **On this page** – the Page TOC plugin is included, for the list of headings on module pages; it adds no "#" links to headings (its `anchors.link` setting is off)
 
 ## Requirements
 

@@ -16,6 +16,14 @@ By adding the URL parameter (i.e. flag) `chromeless:true` to any Open MultiCours
 
 For example, the URL [demo.hibbittsdesign.org/grav-open-multi-course-hub/cpt363-intermediate/schedule](https://demo.hibbittsdesign.org/grav-open-multi-course-hub/cpt363-intermediate/schedule) displays the standard Open MultiCourse Hub page but the URL [demo.hibbittsdesign.org/grav-open-multi-course-hub/cpt363-intermediate/schedule/chromeless:true](https://demo.hibbittsdesign.org/grav-open-multi-course-hub/cpt363-intermediate/schedule/chromeless:true) will only display that page's content. Any links between Open MultiCourse Hub pages will result in pages being displayed in the same manner.
 
+## Organise Each Course by Weeks or by Modules
+
+Along with weekly units, the Open MultiCourse Hub supports modules, as in Grav Helios Course Hub: a Modules page with a card for each module, a list of modules beside every module page, and Previous and Next buttons through every module and page. See the [CPT363-2 example course](/cpt363-intermediate/modules), which is organised by modules.
+
+## Bring Courses Over from Your LMS
+
+Have a course in Canvas, Moodle, Brightspace, or Blackboard? Export it as a Common Cartridge file, and the free [Common Cartridge Converter](https://common-cartridge-converter.hibbittsdesign.org/) (beta) turns it into a new course for this site, organised by modules – see [a course imported from an LMS](https://demo.hibbittsdesign.org/grav-open-course-hub-it2dda/).
+
 ## What Else Can the Open MultiCourse Hub do for You? ##
 Learn more about the capabilities of the Open MultiCourse Hub project in its [README on GitHub](https://github.com/hibbitts-design/grav-skeleton-multicourse-hub#readme).
 

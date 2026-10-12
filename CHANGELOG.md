@@ -2,8 +2,9 @@
 ## XX/XX/2026
 
 1. [](#improved)
-    * CPT363-2's Home page links straight to this week's module (Module 4)
-    * CPT363-2's Looking Ahead to Next Week headings say Module 5 rather than Week 5
+    * Each course's Home page links straight to this week's unit (Week 4, or Module 4 in CPT363-2)
+    * CPT363-2's Looking Ahead to Next Week part links to Module 5, with Module 5 (rather than Week 5) headings
+    * Each course's Looking Ahead to Next Week slides link has an icon, as on the Schedule
 
 # v2.7.0
 ## 10/12/2026

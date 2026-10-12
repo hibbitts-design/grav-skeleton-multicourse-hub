@@ -5,6 +5,8 @@ published: true
 
 ## Looking Ahead to Next Week
 
+**[Week 5 – How to plan, conduct, and summarize usability tests?](/cpt363-advanced/weekly-units/week-05)**
+
 ### Week 5 Required Reading
 [linkpreviewcard url="https://usabilitygeek.com/guerrilla-usability-testing-how-to/"]
 

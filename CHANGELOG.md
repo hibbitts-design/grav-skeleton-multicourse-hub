@@ -1,3 +1,9 @@
+# v2.6.1
+## XX/XX/2026
+
+1. [](#improved)
+    * The Page TOC plugin is no longer included, as Bootstrap4 Open Matter 6.3.1 no longer shows an "On this page" list on module pages
+
 # v2.6.0
 ## 10/11/2026
 

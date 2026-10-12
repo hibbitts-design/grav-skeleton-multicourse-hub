@@ -3,8 +3,10 @@
 
 1. [](#improved)
     * Each course's Home page links straight to this week's unit (Week 4, or Module 4 in CPT363-2)
-    * CPT363-2's Looking Ahead to Next Week part links to Module 5, with Module 5 (rather than Week 5) headings
+    * Each course's Looking Ahead to Next Week part links straight to next week's unit (Week 5, or Module 5 in CPT363-2)
+    * CPT363-2's Looking Ahead to Next Week headings say Module 5 rather than Week 5
     * Each course's Looking Ahead to Next Week slides link has an icon, as on the Schedule
+    * Each course's Read Me page highlights organising a course by weeks or by modules, and importing a course from an LMS with the Common Cartridge Converter
 
 # v2.7.0
 ## 10/12/2026

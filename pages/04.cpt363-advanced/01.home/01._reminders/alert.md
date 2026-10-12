@@ -7,6 +7,8 @@ visible: false
 
 ## What’s Happening This Week
 
+**[Week 4 – How to explore and communicate possible design solutions?](/cpt363-advanced/weekly-units/week-04)**
+
 ### Important Reminders
 * [Journey Map](https://canvas.sfu.ca/courses/55288/assignments) assignment [badge label="Tue Jun 12 11:59pm PT"][/badge]
 * [Course Reflection Log](https://canvas.sfu.ca/courses/55288/assignments) assignment [badge label="Fri Aug 3rd 11:59pm PT"][/badge]

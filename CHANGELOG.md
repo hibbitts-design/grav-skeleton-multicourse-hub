@@ -1,7 +1,11 @@
-# v2.6.1
-## XX/XX/2026
+# v2.7.0
+## 10/12/2026
 
+1. [](#new)
+    * Each course has a separate Weekly Units page for its weekly units, and its Home page shows just the announcement, this week's reminders and next week's preparations, closer to the Grav Helios Course Hub home page
+    * CPT363-3 is now organised by modules, as a live example: its Modules page replaces its weekly units, with its Schedule and Topics linking to the modules, and its Syllabus is published
 1. [](#improved)
+    * Weekly units are now at weekly-units/week-01 and so on, with the Schedule and Topics links updated, and Weekly Units comes first in each course's menu
     * The Page TOC plugin is no longer included, as Bootstrap4 Open Matter 6.3.1 no longer shows an "On this page" list on module pages
 
 # v2.6.0

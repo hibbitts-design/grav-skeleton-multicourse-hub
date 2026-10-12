@@ -1,6 +1,6 @@
 ---
 title: Syllabus
-published: true
+published: false
 show_sidebar: false
 hide_git_sync_repo_link: false
 ---

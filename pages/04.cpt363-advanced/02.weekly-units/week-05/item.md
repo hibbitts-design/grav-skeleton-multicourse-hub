@@ -10,7 +10,7 @@ header_image_alt_text: 'Usability testing'
 ---
 
 ## How to plan, conduct, and summarize usability tests?  
-[Testing Methods](https://www.google.ca/slides/about/)  
+[Testing Methods](https://www.google.ca/slides/about/)
 [Conducting Tests](https://www.google.ca/slides/about/)  
 [Analysis and Reporting](https://www.google.ca/slides/about/)  
 

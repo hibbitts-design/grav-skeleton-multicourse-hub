@@ -10,9 +10,9 @@ header_image_alt_text: 'Information architecture'
 ---
 
 ## What does a holistic user experience design process look like?
-[Software Development Processes](https://www.google.ca/slides/about/)  
-[User Experience Design Processes](https://www.google.ca/slides/about/)  
-[Our Design Process (aka Toolkit)](https://www.google.ca/slides/about/)  
+[Software Development Processes](https://www.google.ca/slides/about/)    
+[User Experience Design Processes](https://www.google.ca/slides/about/)    
+[Our Design Process (aka Toolkit)](https://www.google.ca/slides/about/)    
 
 ===
 

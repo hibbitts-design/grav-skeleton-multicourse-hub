@@ -1,22 +1,11 @@
 ---
-title: 'Week 1 (May 9 - 15)'
-published: true
-date: '09-05-2018 00:00'
+title: 'Module 1'
+description: 'What is usability and user experience design?'
+header_image: true
 header_image_alt_text: 'SFU Academic Quadrangle'
 header_image_credit: 'Julian Schüngel, Flickr.com'
 header_image_creditlink: 'https://www.flickr.com/photos/medevac71/10610701655/'
-hide_from_post_list: false
-continue_link: true
-hide_git_sync_repo_link: true
 ---
-
-## What is usability and user experience design?
-[HCI, UI, IA, IxD, and UX](https://www.google.ca/slides/about/)  
-[Design Thinking](https://www.google.ca/slides/about/)  
-[Usability and UCD](https://www.google.ca/slides/about/)  
-
-===
-
 ## **What is usability and user experience design?**
 
 ### Summaries and Questions  

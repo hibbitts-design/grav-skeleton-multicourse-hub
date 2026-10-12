@@ -1,3 +1,9 @@
+# v2.7.1
+## XX/XX/2026
+
+1. [](#improved)
+    * CPT363-2's Home page links straight to this week's module (Module 4)
+
 # v2.7.0
 ## 10/12/2026
 

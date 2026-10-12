@@ -10,7 +10,7 @@
 
 <p>Try the <a href="https://demo.hibbittsdesign.org/grav-open-multi-course-hub/">demo</a></p>
 
-<p>A free, open-source alternative to <a href="https://github.com/hibbitts-design/grav-skeleton-helios-course-hub">Grav Helios Course Hub</a>, built on <a href="https://getgrav.org">Grav CMS</a> and the <a href="https://github.com/hibbitts-design/grav-theme-bootstrap4-open-matter">Bootstrap4 Open Matter</a> theme, with Markdown file-based content, a built-in Admin panel, and no database required. Helios Course Hub, built on the premium Helios theme, adds a more refined design, a table of contents on pages, automatic single or multi-course setup, and Common Cartridge import from Canvas or another LMS.</p>
+<p>A free, open-source alternative to <a href="https://github.com/hibbitts-design/grav-skeleton-helios-course-hub">Grav Helios Course Hub</a>, built on <a href="https://getgrav.org">Grav CMS</a> and the <a href="https://github.com/hibbitts-design/grav-theme-bootstrap4-open-matter">Bootstrap4 Open Matter</a> theme, with Markdown file-based content, a built-in Admin panel, and no database required. Helios Course Hub, built on the premium Helios theme, adds a more refined design, a table of contents on pages, and automatic single or multi-course setup.</p>
 
 <a href="https://raw.githubusercontent.com/hibbitts-design/grav-skeleton-multicourse-hub/refs/heads/master/screenshots/screenshot.webp"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hibbitts-design/grav-skeleton-multicourse-hub/refs/heads/master/screenshots/screenshot-dark.webp"><img alt="MultiCourse Hub homepage with course cards for three example courses" src="https://raw.githubusercontent.com/hibbitts-design/grav-skeleton-multicourse-hub/refs/heads/master/screenshots/screenshot.webp" width="49%"></picture></a> <a href="https://raw.githubusercontent.com/hibbitts-design/grav-skeleton-multicourse-hub/refs/heads/master/screenshots/screenshot-2.webp"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hibbitts-design/grav-skeleton-multicourse-hub/refs/heads/master/screenshots/screenshot-2-dark.webp"><img alt="Course homepage for CPT363-1 with weekly reminders, required reading, and a course sidebar with LMS links" src="https://raw.githubusercontent.com/hibbitts-design/grav-skeleton-multicourse-hub/refs/heads/master/screenshots/screenshot-2.webp" width="49%"></picture></a>
 
@@ -27,6 +27,7 @@ A complete, pre-configured package that gives several courses an open and collab
 - **Several courses, one site** – a homepage of course cards, with each course getting its own navigation, header image, sidebar, footer, NavBar colour, and favicon
 - **Share content between courses** – reuse any page or section across courses with the included Page Inject plugin
 - **LMS embedding without LTI** – add `/chromeless:true` or `?embedded=true` to any page URL to show only its content, or display the whole site without its menu, sidebar, and footer
+- **Bring courses over from your LMS** – import a whole Canvas, Moodle, Brightspace, or Blackboard course (a Common Cartridge export), organised by modules, with the free [Common Cartridge Converter](https://common-cartridge-converter.hibbittsdesign.org/) (beta)
 - **Open authoring built in** – Git Sync keeps the site in step with GitHub or a similar Git service, with "Edit this Page" links to each page's Markdown source
 - **A course-ready structure** – a Home page with "What's Happening This Week" reminders, weekly units listed newest first (or modules, as in the CPT363-2 example), plus schedule, resources, and syllabus pages in every course
 - **Rich embeds** – Google Slides, H5P, PDF, iFrame, Embedly, and link preview cards, plus badges and buttons, all with shortcodes, and GitHub-style alerts (`> [!NOTE]`) for callouts
@@ -46,7 +47,7 @@ Grav Open MultiCourse Hub is a good fit when you:
 
 Other options might be better when you:
 
-- Want a structured course site with a table of contents on pages, a more refined design, and Common Cartridge import from Canvas or another LMS – consider [Grav Helios Course Hub](https://github.com/hibbitts-design/grav-skeleton-helios-course-hub), built on the premium Helios theme
+- Want a structured course site with a table of contents on pages and a more refined design – consider [Grav Helios Course Hub](https://github.com/hibbitts-design/grav-skeleton-helios-course-hub), built on the premium Helios theme
 - Have only one course – the [Grav Open Course Hub](https://github.com/hibbitts-design/grav-skeleton-course-hub) is a simpler starting point
 - Want a guide or open textbook-style resource alongside a blog, rather than weekly course companions – consider [Grav Open Publishing Space](https://github.com/hibbitts-design/grav-skeleton-open-publishing-space)
 - Need real LMS features such as enrollment, grading, or student progress tracking

@@ -14,7 +14,9 @@
 
 <a href="https://raw.githubusercontent.com/hibbitts-design/grav-skeleton-multicourse-hub/refs/heads/master/screenshots/screenshot.webp"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hibbitts-design/grav-skeleton-multicourse-hub/refs/heads/master/screenshots/screenshot-dark.webp"><img alt="MultiCourse Hub homepage with course cards for three example courses" src="https://raw.githubusercontent.com/hibbitts-design/grav-skeleton-multicourse-hub/refs/heads/master/screenshots/screenshot.webp" width="49%"></picture></a> <a href="https://raw.githubusercontent.com/hibbitts-design/grav-skeleton-multicourse-hub/refs/heads/master/screenshots/screenshot-2.webp"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hibbitts-design/grav-skeleton-multicourse-hub/refs/heads/master/screenshots/screenshot-2-dark.webp"><img alt="Course homepage for CPT363-1 with weekly reminders, required reading, and a course sidebar with LMS links" src="https://raw.githubusercontent.com/hibbitts-design/grav-skeleton-multicourse-hub/refs/heads/master/screenshots/screenshot-2.webp" width="49%"></picture></a>
 
-<p>Open MultiCourse Hub – Courses homepage (left) and a course homepage (right)</p>
+<a href="https://raw.githubusercontent.com/hibbitts-design/grav-skeleton-multicourse-hub/refs/heads/master/screenshots/screenshot-3.webp"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hibbitts-design/grav-skeleton-multicourse-hub/refs/heads/master/screenshots/screenshot-3-dark.webp"><img alt="Modules page for CPT363-2 with a card for each module, and the course sidebar on the right" src="https://raw.githubusercontent.com/hibbitts-design/grav-skeleton-multicourse-hub/refs/heads/master/screenshots/screenshot-3.webp" width="49%"></picture></a>
+
+<p>Open MultiCourse Hub – Courses homepage (left), a course homepage (right), and the Modules page of CPT363-2, the module-based example course (below)</p>
 
 </div>
 

@@ -8,7 +8,7 @@
 
 [![Grav Discord Chat](https://img.shields.io/discord/501836936584101899.svg?logo=discord&colorB=728ADA&label=Grav%20Discord%20Chat)](https://chat.getgrav.org) [![Latest Release](https://img.shields.io/github/v/release/hibbitts-design/grav-skeleton-multicourse-hub?style=flat-square&label=Release)](https://github.com/hibbitts-design/grav-skeleton-multicourse-hub/releases/latest) [![License](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](https://github.com/hibbitts-design/grav-skeleton-multicourse-hub/blob/master/LICENSE) [![PHP](https://img.shields.io/badge/PHP-%3E%3D8.3-8892BF?style=flat-square&logo=php&logoColor=white)](https://learn.getgrav.org/17/basics/requirements)
 
-<p>Try the <a href="https://demo.hibbittsdesign.org/grav-open-multi-course-hub/">demo</a>, or see <a href="https://demo.hibbittsdesign.org/grav-open-course-hub-it2dda/">a course imported from an LMS</a></p>
+<p>Try the <a href="https://demo.hibbittsdesign.org/grav-open-multi-course-hub/">demo</a></p>
 
 <p>A free, open-source alternative to <a href="https://github.com/hibbitts-design/grav-skeleton-helios-course-hub">Grav Helios Course Hub</a>, built on <a href="https://getgrav.org">Grav CMS</a> and the <a href="https://github.com/hibbitts-design/grav-theme-bootstrap4-open-matter">Bootstrap4 Open Matter</a> theme, with Markdown file-based content, a built-in Admin panel, and no database required. Helios Course Hub, built on the premium Helios theme, adds a more refined design, a table of contents on pages, and automatic single or multi-course setup.</p>
 
@@ -28,7 +28,7 @@ A complete, pre-configured package that gives several courses an open and collab
 - **Share content between courses** – reuse any page or section across courses with the included Page Inject plugin
 - **LMS embedding without LTI** – add `/chromeless:true` or `?embedded=true` to any page URL to show only its content, or display the whole site without its menu, sidebar, and footer
 - **Organise each course by weeks or by modules** – weekly units listed newest first, or a Modules page with a card for each module, a list of modules beside every module page, and Previous and Next buttons, as in Grav Helios Course Hub (see the CPT363-2 example course)
-- **Bring courses over from your LMS** – import a whole Canvas, Moodle, Brightspace, or Blackboard course (a Common Cartridge export), organised by modules, with the free [Common Cartridge Converter](https://common-cartridge-converter.hibbittsdesign.org/) (beta)
+- **Bring courses over from your LMS** – import a whole Canvas, Moodle, Brightspace, or Blackboard course (a Common Cartridge export), organised by modules, with the free [Common Cartridge Converter](https://common-cartridge-converter.hibbittsdesign.org/) (beta) – see [an example conversion](https://demo.hibbittsdesign.org/grav-open-course-hub-it2dda/)
 - **Open authoring built in** – Git Sync keeps the site in step with GitHub or a similar Git service, with "Edit this Page" links to each page's Markdown source
 - **A course-ready structure** – a Home page with "What's Happening This Week" reminders, weekly units or modules, plus schedule, resources, and syllabus pages in every course
 - **Rich embeds** – Google Slides, H5P, PDF, iFrame, Embedly, and link preview cards, plus badges and buttons, all with shortcodes, and GitHub-style alerts (`> [!NOTE]`) for callouts

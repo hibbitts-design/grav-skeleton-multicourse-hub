@@ -22,7 +22,7 @@ Along with weekly units, the Open MultiCourse Hub supports modules, as in Grav H
 
 ## Bring Courses Over from Your LMS
 
-Have a course in Canvas, Moodle, Brightspace, or Blackboard? Export it as a Common Cartridge file, and the free [Common Cartridge Converter](https://common-cartridge-converter.hibbittsdesign.org/) (beta) turns it into a new course for this site, organised by modules – see [a course imported from an LMS](https://demo.hibbittsdesign.org/grav-open-course-hub-it2dda/).
+Have a course in Canvas, Moodle, Brightspace, or Blackboard? Export it as a Common Cartridge file, and the free [Common Cartridge Converter](https://common-cartridge-converter.hibbittsdesign.org/) (beta) turns it into a new course for this site, organised by modules – see [an example conversion](https://demo.hibbittsdesign.org/grav-open-course-hub-it2dda/).
 
 ## What Else Can the Open MultiCourse Hub do for You? ##
 Learn more about the capabilities of the Open MultiCourse Hub project in its [README on GitHub](https://github.com/hibbitts-design/grav-skeleton-multicourse-hub#readme).

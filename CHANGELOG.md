@@ -3,6 +3,7 @@
 
 1. [](#improved)
     * CPT363-2's Home page links straight to this week's module (Module 4)
+    * CPT363-2's Looking Ahead to Next Week headings say Module 5 rather than Week 5
 
 # v2.7.0
 ## 10/12/2026

@@ -53,7 +53,7 @@ Other options might be better when you:
 - Want a guide or open textbook-style resource alongside a blog, rather than course companions – consider [Grav Open Publishing Space](https://github.com/hibbitts-design/grav-skeleton-open-publishing-space)
 - Need real LMS features such as enrollment, grading, or student progress tracking
 
-Already running Open MultiCourse Hub? See [moving to Grav Helios Course Hub](https://github.com/hibbitts-design/grav-skeleton-helios-course-hub#from-grav-open-multicourse-hub) for step-by-step migration guidance. Content using the shared shortcodes (including `[topics]` and the course content shortcodes), GitHub-style alerts, and course card fields moves across unchanged.
+Already running Open MultiCourse Hub? See [moving to Grav Helios Course Hub](https://github.com/hibbitts-design/grav-skeleton-helios-course-hub#from-grav-open-multicourse-hub) for step-by-step migration guidance. Content using the shared shortcodes (including `[topics]` and the course content shortcodes), GitHub-style alerts, and course card fields moves across unchanged. Helios Course Hub has no course blog, so blog posts move across as ordinary pages, without tags, archives or RSS.
 
 ## Quick Start
 

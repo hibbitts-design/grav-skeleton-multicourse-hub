@@ -1,12 +1,15 @@
-# v2.7.1
-## XX/XX/2026
+# v2.8.0
+## 10/13/2026
 
+1. [](#new)
+    * Example courses by format: modules (CPT363-1), modules with a blog (CPT363-2), and weekly units (CPT363-3)
+    * Includes the Taxonomy List, Archives and Feed plugins for the blog sidebar
 1. [](#improved)
-    * Each course's Home page links straight to this week's unit (Week 4, or Module 4 in CPT363-2)
-    * Each course's Looking Ahead to Next Week part links straight to next week's unit (Week 5, or Module 5 in CPT363-2)
-    * CPT363-2's Looking Ahead to Next Week headings say Module 5 rather than Week 5
-    * Each course's Looking Ahead to Next Week slides link has an icon, as on the Schedule
-    * Each course's Read Me page highlights organising a course by weeks or by modules, and importing a course from an LMS with the Common Cartridge Converter
+    * Each Home page links straight to this week's and next week's unit or module
+    * Looking Ahead to Next Week slides links have an icon, as on the Schedule
+    * Course cards, Read Me pages and README describe each format, and importing a course from an LMS
+    * Clearer descriptions for Modules 9, 12 and 13; CPT363-3's unused Modules removed
+    * Update to Bootstrap4 Open Matter 6.4.0
 
 # v2.7.0
 ## 10/12/2026

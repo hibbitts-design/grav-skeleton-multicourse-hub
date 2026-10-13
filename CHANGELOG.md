@@ -3,7 +3,7 @@
 
 1. [](#new)
     * Example courses by format: modules (CPT363-1), modules with a blog (CPT363-2), and weekly units (CPT363-3)
-    * Includes the Taxonomy List, Archives and Feed plugins for the blog sidebar
+    * Includes the Taxonomy List, Archives and Feed plugins for the blog sidebar, and Page TOC again, for each module page's sections
 1. [](#improved)
     * Each Home page links straight to this week's and next week's unit or module
     * Looking Ahead to Next Week slides links have an icon, as on the Schedule

@@ -16,7 +16,7 @@
 
 <a href="https://raw.githubusercontent.com/hibbitts-design/grav-skeleton-multicourse-hub/refs/heads/master/screenshots/screenshot-3.webp"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hibbitts-design/grav-skeleton-multicourse-hub/refs/heads/master/screenshots/screenshot-3-dark.webp"><img alt="Modules page for CPT363-2 with a card for each module, and the course sidebar on the right" src="https://raw.githubusercontent.com/hibbitts-design/grav-skeleton-multicourse-hub/refs/heads/master/screenshots/screenshot-3.webp" width="49%"></picture></a>
 
-<p>Open MultiCourse Hub – Courses homepage (left), a course homepage (right), and the Modules page of CPT363-2, the module-based example course (below)</p>
+<p>Open MultiCourse Hub – Courses homepage (left), a course homepage (right), and the Modules page of CPT363-2 (below)</p>
 
 </div>
 
@@ -27,10 +27,10 @@ A complete, pre-configured package that gives several courses an open and collab
 - **Several courses, one site** – a homepage of course cards, with each course getting its own navigation, header image, sidebar, footer, NavBar colour, and favicon
 - **Share content between courses** – reuse any page or section across courses with the included Page Inject plugin
 - **LMS embedding without LTI** – add `/chromeless:true` or `?embedded=true` to any page URL to show only its content, or display the whole site without its menu, sidebar, and footer
-- **Organise each course by weeks or by modules** – weekly units listed newest first, or a Modules page with a card for each module, a list of modules beside every module page, and Previous and Next buttons, as in Grav Helios Course Hub (see the CPT363-2 example course)
+- **Modules, a course blog, or weekly units** – each course is organised its own way: a Modules page with a card for each module, a list of modules beside every module page, and Previous and Next buttons, as in Grav Helios Course Hub; a course blog with Popular Tags, Archives and RSS; or weekly units listed newest first – the three example courses show each one
 - **Bring courses over from your LMS** – import a whole Canvas, Moodle, Brightspace, or Blackboard course (a Common Cartridge export), organised by modules, with the free [Common Cartridge Converter](https://common-cartridge-converter.hibbittsdesign.org/) (beta) – see [an example conversion](https://demo.hibbittsdesign.org/grav-open-course-hub-it2dda/)
 - **Open authoring built in** – Git Sync keeps the site in step with GitHub or a similar Git service, with "Edit this Page" links to each page's Markdown source
-- **A course-ready structure** – a Home page with "What's Happening This Week" reminders, weekly units or modules, plus schedule, resources, and syllabus pages in every course
+- **A course-ready structure** – a Home page with "What's Happening This Week" reminders, modules or weekly units, plus schedule, resources, and syllabus pages in every course
 - **Rich embeds** – Google Slides, H5P, PDF, iFrame, Embedly, and link preview cards, plus badges and buttons, all with shortcodes, and GitHub-style alerts (`> [!NOTE]`) for callouts
 - **Course content shortcodes** – learning objectives, key takeaways, reflections, definitions, examples, case studies, references, and more, with the same shortcodes as Grav Helios Course Hub
 - **Course search** – search the current course from its sidebar (an all-courses box can be added to the homepage)
@@ -50,7 +50,7 @@ Other options might be better when you:
 
 - Want a structured course site with a table of contents on pages and a more refined design – consider [Grav Helios Course Hub](https://github.com/hibbitts-design/grav-skeleton-helios-course-hub), built on the premium Helios theme
 - Have only one course – the [Grav Open Course Hub](https://github.com/hibbitts-design/grav-skeleton-course-hub) is a simpler starting point
-- Want a guide or open textbook-style resource alongside a blog, rather than weekly course companions – consider [Grav Open Publishing Space](https://github.com/hibbitts-design/grav-skeleton-open-publishing-space)
+- Want a guide or open textbook-style resource alongside a blog, rather than course companions – consider [Grav Open Publishing Space](https://github.com/hibbitts-design/grav-skeleton-open-publishing-space)
 - Need real LMS features such as enrollment, grading, or student progress tracking
 
 Already running Open MultiCourse Hub? See [moving to Grav Helios Course Hub](https://github.com/hibbitts-design/grav-skeleton-helios-course-hub#from-grav-open-multicourse-hub) for step-by-step migration guidance. Content using the shared shortcodes (including `[topics]` and the course content shortcodes), GitHub-style alerts, and course card fields moves across unchanged.
@@ -81,8 +81,8 @@ Open MultiCourse Hub is best suited for authors and educators comfortable with w
 - **Courses** – each course is a top-level folder (`cpt363-basic`, `cpt363-intermediate`, `cpt363-advanced`) with its own Home, Schedule, Resources, and Syllabus pages. In the course's page options, set its title, card title and description, instructor, badge, group heading, and card image, whether it appears on the homepage, its home page, and its NavBar background colour
 - **Adding a course** – copy an existing course folder and rename it, or use **Pages → Add** with the Subsite page type (or the Course page type, which uses a `course.md` file as in Grav Helios Course Hub)
 - **Course-specific parts** – each course has its own `sidebar`, `footer`, and `headerimage` pages, and an optional `favicon` page; when a course leaves one out, the site-wide version is used
-- **Within each course** – the Home page, Weekly Units page (`weekly-units/week-01`, …), reminders, and pages work as in the [Grav Open Course Hub](https://github.com/hibbitts-design/grav-skeleton-course-hub#course-setup)
-- **Modules** – CPT363-2 is organised by modules, as in Grav Helios Course Hub, while the other courses are organised by weeks. To switch a course to modules, publish its Modules page and unpublish its Weekly Units; or replace a course with one converted by the Common Cartridge Converter
+- **Within each course** – the Home page, Modules, course blog, reminders, and pages work as in the [Grav Open Course Hub](https://github.com/hibbitts-design/grav-skeleton-course-hub#course-setup)
+- **Example courses** – CPT363-1 is organised by modules, CPT363-2 adds a course blog (`cpt363-intermediate/blog`), and CPT363-3 is organised by weekly units (`cpt363-advanced/weekly-units`). Each course can have its own blog, and its sidebar shows only that blog's tags and archives
 - **Sharing content** – include any page in another course with `[plugin:page-inject](/cpt363-basic/resources)`
 - **Look and options** – under **Themes → My Theme**: Theme Style, Dark Mode, header image height, NavBar, chromeless site, and Creative Commons license (see the [Bootstrap4 Open Matter README](https://github.com/hibbitts-design/grav-theme-bootstrap4-open-matter#theme-options) for all options)
 - **Updating an existing site** – for the latest My Theme options on a site created before Open MultiCourse Hub 2.5.5, replace everything from `form:` in `user/themes/mytheme/blueprints.yaml` with:

@@ -16,9 +16,11 @@ By adding the URL parameter (i.e. flag) `chromeless:true` to any Open MultiCours
 
 For example, the URL [demo.hibbittsdesign.org/grav-open-multi-course-hub/cpt363-basic/schedule](https://demo.hibbittsdesign.org/grav-open-multi-course-hub/cpt363-basic/schedule) displays the standard Open MultiCourse Hub page but the URL [demo.hibbittsdesign.org/grav-open-multi-course-hub/cpt363-basic/schedule/chromeless:true](https://demo.hibbittsdesign.org/grav-open-multi-course-hub/cpt363-basic/schedule/chromeless:true) will only display that page's content. Any links between Open MultiCourse Hub pages will result in pages being displayed in the same manner.
 
-## Organise Each Course by Weeks or by Modules
+## Modules, a Course Blog, or Weekly Units
 
-Along with weekly units, the Open MultiCourse Hub supports modules, as in Grav Helios Course Hub: a Modules page with a card for each module, a list of modules beside every module page, and Previous and Next buttons through every module and page. See the [CPT363-2 example course](/cpt363-intermediate/modules), which is organised by modules.
+Each course can be organised its own way. Modules work as in Grav Helios Course Hub: a Modules page with a card for each module, a list of modules beside every module page, and Previous and Next buttons through every module and page. A course blog holds news, tips and reflections alongside the modules, and a blog page can instead list weekly units, newest first.
+
+The example courses show each one: [CPT363-1](/cpt363-basic/modules) is organised by modules, [CPT363-2](/cpt363-intermediate/blog) adds a course blog, and [CPT363-3](/cpt363-advanced/weekly-units) is organised by weekly units.
 
 ## Bring Courses Over from Your LMS
 

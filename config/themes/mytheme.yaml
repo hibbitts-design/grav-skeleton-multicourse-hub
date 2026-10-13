@@ -42,4 +42,4 @@ custom_git_sync_repo_link_icon: null
 custom_git_sync_repo_link_text: null
 git_sync_repo_link: null
 header_image_size: home-hidden
-display_syndicate: false
+display_syndicate: true

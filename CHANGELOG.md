@@ -3,6 +3,9 @@
 
 1. [](#improved)
     * Update to Bootstrap4 Open Matter 6.4.4: Yes/No switches show their labels in Admin on more hosts, links work in chromeless mode, the site name links to the home page from blog posts, and embedded module pages leave out their Previous and Next buttons
+    * CPT363-3 (weekly units): the Syllabus is published, and Topics and UX News are unpublished, for a shorter menu
+    * UX News feeds: Smashing Magazine and Nielsen Norman Group replace A List Apart and UX Matters, whose feed stopped updating in 2024 (Twig Feeds stays off until enabled)
+    * README: the Topics index example points to CPT363-2, and Resources pages are described as optional
 
 # v2.8.0
 ## 10/13/2026

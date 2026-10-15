@@ -1,3 +1,9 @@
+# v2.8.2
+## XX/XX/2026
+
+1. [](#bugfix)
+    * UX Techniques Guide (CPT363-2 and CPT363-3): the Job Stories page has its own title, not Interviews
+
 # v2.8.1
 ## 10/15/2026
 

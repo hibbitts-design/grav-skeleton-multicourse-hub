@@ -30,7 +30,7 @@ A complete, pre-configured package that gives several courses an open and collab
 - **Modules, a course blog, or weekly units** – each course is organised its own way: a Modules page with a card for each module, a list of modules (with the current page's sections) beside every module page, and Previous and Next buttons, as in Grav Helios Course Hub; a course blog with Popular Tags, Archives and RSS; or weekly units listed newest first – the three example courses show each one
 - **Bring courses over from your LMS** – import a whole Canvas, Moodle, Brightspace, or Blackboard course (a Common Cartridge export), organised by modules, with the free [Common Cartridge Converter](https://common-cartridge-converter.hibbittsdesign.org/) (beta) – see [an example conversion](https://demo.hibbittsdesign.org/grav-open-course-hub-common-cartridge-it2dda/)
 - **Open authoring built in** – Git Sync keeps the site in step with GitHub or a similar Git service, with "Edit this Page" links to each page's Markdown source
-- **A course-ready structure** – a Home page with "What's Happening This Week" reminders, modules or weekly units, plus schedule, resources, and syllabus pages in every course
+- **A course-ready structure** – a Home page with "What's Happening This Week" reminders, modules or weekly units, plus schedule and syllabus pages in every course, and resources pages where needed
 - **Rich embeds** – Google Slides, H5P, PDF, iFrame, Embedly, and link preview cards, plus badges and buttons, all with shortcodes, and GitHub-style alerts (`> [!NOTE]`) for callouts
 - **Course content shortcodes** – learning objectives, key takeaways, reflections, definitions, examples, case studies, references, and more, with the same shortcodes as Grav Helios Course Hub
 - **Course search** – search the current course from its sidebar (an all-courses box can be added to the homepage)
@@ -78,7 +78,7 @@ Open MultiCourse Hub is best suited for authors and educators comfortable with w
 
 - **Site name and description** – in the Admin Panel under **Configuration → Site**
 - **Courses homepage** – the Home page shows a card for each course; edit its welcome text, and set the card width and order in its page options. Each card uses its course's header image
-- **Courses** – each course is a top-level folder (`cpt363-basic`, `cpt363-intermediate`, `cpt363-advanced`) with its own Home, Schedule, Resources, and Syllabus pages. In the course's page options, set its title, card title and description, instructor, badge, group heading, and card image, whether it appears on the homepage, its home page, and its NavBar background colour
+- **Courses** – each course is a top-level folder (`cpt363-basic`, `cpt363-intermediate`, `cpt363-advanced`) with its own Home, Schedule, and Syllabus pages (and Resources in the basic and intermediate courses). In the course's page options, set its title, card title and description, instructor, badge, group heading, and card image, whether it appears on the homepage, its home page, and its NavBar background colour
 - **Adding a course** – copy an existing course folder and rename it, or use **Pages → Add** with the Subsite page type (or the Course page type, which uses a `course.md` file as in Grav Helios Course Hub)
 - **Course-specific parts** – each course has its own `sidebar`, `footer`, and `headerimage` pages, and an optional `favicon` page; when a course leaves one out, the site-wide version is used
 - **Within each course** – the Home page, Modules, course blog, reminders, and pages work as in the [Grav Open Course Hub](https://github.com/hibbitts-design/grav-skeleton-course-hub#course-setup)
@@ -97,7 +97,7 @@ Open MultiCourse Hub is best suited for authors and educators comfortable with w
 - **Git Sync and "Edit this Page"** – set up Git Sync in the Admin Panel (its own menu item in Grav 2, or Plugins → Git Sync in Grav 1.7), then choose where the link appears and whether it views or edits the source in the theme's Git Sync Link options; add `?edit_link=false` to a page URL to hide the link on that page
 - **Callouts** – start a blockquote with `> [!NOTE]`, `> [!TIP]`, `> [!IMPORTANT]`, `> [!WARNING]`, or `> [!CAUTION]`; the `cpt363-intermediate` Home page's announcement shows an example
 - **Course content shortcodes** – wrap content in `[objectives]`, `[key-takeaways]`, `[reflection]`, `[definition]`, `[example]`, `[case-study]`, `[project-brief]`, `[process-note]`, `[feedback-requested]`, `[announcement]`, `[exercise]`, `[references]`, or `[excerpt]`; see Week 1 of `cpt363-advanced` for `[objectives]` and `[references]`
-- **Topics index** – wrap a list of `## A`, `## B`, … sections in `[topics]...[/topics]` for an automatic A–Z index; see `cpt363-advanced/topics`
+- **Topics index** – wrap a list of `## A`, `## B`, … sections in `[topics]...[/topics]` for an automatic A–Z index; see `cpt363-intermediate/topics`
 - **Search** – the SimpleSearch plugin is included; to keep a page out of results, add `simplesearch: process: false` to its frontmatter (each course's `lms-home` page does this)
 
 ## Requirements

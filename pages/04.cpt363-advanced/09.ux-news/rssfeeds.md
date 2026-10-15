@@ -1,8 +1,7 @@
 ---
 title: 'UX News'
-published: true
+published: false
 hide_git_sync_repo_link: true
-visible: false
 rss_feed_limit: '10'
 rss_feed_pagination: true
 rss_feed_header_images: true

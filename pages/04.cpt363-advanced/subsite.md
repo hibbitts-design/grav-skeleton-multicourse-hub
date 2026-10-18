@@ -5,7 +5,7 @@ visible: false
 subsite_list_description: 'This is an advanced example course, organised by weekly units, using a large number of page types and features.'
 instructor: 'Teaching Team: Some Name & Another Name'
 badge_label: 'New Section'
-badge_color: green
+badge_color: purple
 hide_from_subsite_list: false
 subsite_home: home
 page-inject:

@@ -1,9 +1,3 @@
-# v2.8.4
-## XX/XX/2026
-
-1. [](#improved)
-    * Asset timestamps turned on (Enable Timestamps on Assets), so readers' browsers load updated theme and plugin styles and scripts right after an update, instead of keeping old copies for up to a week
-
 # v2.8.3
 ## 10/18/2026
 

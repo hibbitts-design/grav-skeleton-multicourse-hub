@@ -78,12 +78,12 @@ Open MultiCourse Hub is best suited for authors and educators comfortable with w
 
 Everything below is done in the Admin Panel, or by editing the files in `user/pages` if you prefer. Folder names such as `02.cpt363-basic` start with a number that sets their order.
 
-### Site Name and Description
+### Site Name and Home Page
 
-1. Open **Configuration → Site**
-2. Set **Site Title** (shown in the NavBar) and **Description**
+1. Open **Configuration → Site** and set **Site Title** (shown in the NavBar) and **Description**
+2. The Home page, with a card for each course, is the homepage (see below); to use another page, change **Home Page** in **Configuration → System**
 
-### Courses Homepage
+### Courses Home Page
 
 The Home page (`01.home`) shows its welcome text, then a card for each course, using each course's header image. To change it, open **Pages → MultiCourse Home**:
 
@@ -210,9 +210,11 @@ For embeds and more:
 
 Add `title="..."` to the Google Slides, PDF, iframe and H5P shortcodes, so screen readers can say what each embed is. For every shortcode, see the [Bootstrap4 Open Matter README](https://github.com/hibbitts-design/grav-theme-bootstrap4-open-matter#what-sets-it-apart).
 
-### Search
+### Search and News Feeds
 
-The SimpleSearch plugin adds a "Search course..." box to each course's sidebar that searches just that course; the **/** key jumps to it. With the homepage's **Show Search Box** on, a search box there searches all courses. To keep a page out of the results, add `simplesearch: process: false` to its frontmatter, as each course's `lms-home` page does.
+The SimpleSearch plugin adds a "Search course..." box to each course's sidebar that searches just that course; the **/** key jumps to it. With the Courses Home Page's **Show Search Box** on, a search box there searches all courses. To keep a page out of the results, add `simplesearch: process: false` to its frontmatter, as each course's `lms-home` page does.
+
+The unpublished `cpt363-advanced/ux-news` page lists the latest articles from the feeds set in **Plugins → Twig Feeds**. To use it, enable the plugin, set your feeds, and publish the page (or copy it into another course).
 
 ## Requirements
 
@@ -221,14 +223,15 @@ The SimpleSearch plugin adds a "Search course..." box to each course's sidebar t
 
 ## Support
 
-### Contact and Support
+**Contact and Support**
+
 - Share your feedback in the [Open Course Hub Survey](https://docs.google.com/forms/d/e/1FAIpQLSeI6SuJYPyKrhQmlnRVxJI9plUiemu5yTLtLLjwKc9QboR8VQ/viewform)
 - Follow [@hibbittsdesign@mastodon.social](https://mastodon.social/@hibbittsdesign) on Mastodon for updates
 - 👩🏻‍💻🧑🏻‍💻 Join the [Grav Discord](https://chat.getgrav.org) and often find me there
 - Add a ⭐️ [star on GitHub](https://github.com/hibbitts-design/grav-skeleton-multicourse-hub) to the Open MultiCourse Hub project repository
 - For bugs or feature requests, [open an issue](https://github.com/hibbitts-design/grav-skeleton-multicourse-hub/issues) on GitHub
 
-### Professional Services
+**Professional Services**
 
 By leveraging his extensive UX design expertise and systems-oriented approach, Paul helps teams and individuals utilize open content in education and publication settings. Professional services include user experience and workflow consulting, premium support subscriptions, workshops, and custom development. Interested? Send a note to [paul@hibbittsdesign.org](mailto:paul@hibbittsdesign.org).
 

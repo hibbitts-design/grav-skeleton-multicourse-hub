@@ -76,29 +76,143 @@ Open MultiCourse Hub is best suited for authors and educators comfortable with w
 
 ## Course Setup
 
-- **Site name and description** – in the Admin Panel under **Configuration → Site**
-- **Courses homepage** – the Home page shows a card for each course; edit its welcome text, and set the card width and order in its page options. Each card uses its course's header image
-- **Courses** – each course is a top-level folder (`cpt363-basic`, `cpt363-intermediate`, `cpt363-advanced`) with its own Home, Schedule, and Syllabus pages (and Resources in the basic and intermediate courses). In the course's page options, set its title, card title and description, instructor, badge, group heading, and card image, whether it appears on the homepage, its home page, and its NavBar background colour
-- **Adding a course** – copy an existing course folder and rename it, or use **Pages → Add** with the Subsite page type (or the Course page type, which uses a `course.md` file as in Grav Helios Course Hub)
-- **Course-specific parts** – each course has its own `sidebar`, `footer`, and `headerimage` pages, and an optional `favicon` page; when a course leaves one out, the site-wide version is used
-- **Within each course** – the Home page, Modules, course blog, reminders, and pages work as in the [Grav Open Course Hub](https://github.com/hibbitts-design/grav-skeleton-course-hub#course-setup)
-- **Example courses** – CPT363-1 is organised by modules, CPT363-2 adds a course blog (`cpt363-intermediate/blog`), and CPT363-3 is organised by weekly units (`cpt363-advanced/weekly-units`). Each course can have its own blog, and its sidebar shows only that blog's tags and archives
-- **Sharing content** – include any page in another course with `[plugin:page-inject](/cpt363-basic/resources)`
-- **Look and options** – under **Themes → My Theme**: Theme Style, Dark Mode, header image height, NavBar, chromeless site, and Creative Commons license (see the [Bootstrap4 Open Matter README](https://github.com/hibbitts-design/grav-theme-bootstrap4-open-matter#theme-options) for all options)
-- **Updating an existing site** – for the latest My Theme options on a site created before Open MultiCourse Hub 2.5.5, replace everything from `form:` in `user/themes/mytheme/blueprints.yaml` with:
+Everything below is done in the Admin Panel, or by editing the files in `user/pages` if you prefer. Folder names such as `02.cpt363-basic` start with a number that sets their order.
 
-  ```yaml
-  extends@:
-    type: bootstrap4-open-matter/blueprints
-    context: 'themes://'
-  ```
+### Site Name and Description
 
-- **LMS embedding** – add `/chromeless:true` or `?embedded=true` to any page URL, for example `/cpt363-basic/home/chromeless:true`; each course's `lms-home` page shows just that course's reminders and preparations, ready to embed
-- **Git Sync and "Edit this Page"** – set up Git Sync in the Admin Panel (its own menu item in Grav 2, or Plugins → Git Sync in Grav 1.7), then choose where the link appears and whether it views or edits the source in the theme's Git Sync Link options; add `?edit_link=false` to a page URL to hide the link on that page
-- **Callouts** – start a blockquote with `> [!NOTE]`, `> [!TIP]`, `> [!IMPORTANT]`, `> [!WARNING]`, or `> [!CAUTION]`; the `cpt363-intermediate` Home page's announcement shows an example
-- **Course content shortcodes** – wrap content in `[objectives]`, `[key-takeaways]`, `[reflection]`, `[definition]`, `[example]`, `[case-study]`, `[project-brief]`, `[process-note]`, `[feedback-requested]`, `[announcement]`, `[exercise]`, `[references]`, or `[excerpt]`; see Week 1 of `cpt363-advanced` for `[objectives]` and `[references]`
-- **Topics index** – wrap a list of `## A`, `## B`, … sections in `[topics]...[/topics]` for an automatic A–Z index; see `cpt363-intermediate/topics`
-- **Search** – the SimpleSearch plugin is included; to keep a page out of results, add `simplesearch: process: false` to its frontmatter (each course's `lms-home` page does this)
+1. Open **Configuration → Site**
+2. Set **Site Title** (shown in the NavBar) and **Description**
+
+### Courses Homepage
+
+The Home page (`01.home`) shows its welcome text, then a card for each course, using each course's header image. To change it, open **Pages → MultiCourse Home**:
+
+- **Content** – the welcome text above the cards
+- **Subsite List Card Width (in columns)** – how wide each card is
+- **Order By** and **Order** – the order of the cards
+- **Show Search Box** – a search box that searches all courses at once
+
+### Courses
+
+Each course is a top-level folder (`cpt363-basic`, `cpt363-intermediate`, `cpt363-advanced`) with a `subsite.md` page of its own and its own pages inside it. A course's card and settings are on its **Content** tab:
+
+| Setting | What it does |
+|---|---|
+| **Subsite Title** | The course's name, such as CPT363-1 |
+| **Subsite List Title** and **Subsite List Description** | The card's title (if different) and description |
+| **Instructor(s)** | Shown on the card |
+| **Course Card Image** | The card's image, in place of the course's header image |
+| **Badge Label** and **Badge Color** | A short status on the card, such as "New" |
+| **Course List Group** | Shows the card under a heading |
+| **Display this Item in Subsite List** | Whether the card appears on the homepage |
+| **Subsite Home Page** | The course's home page, such as `home` |
+| **Subsite NavBar Background Color** | The course's own NavBar colour |
+
+The example courses each show different features: CPT363-1 is organised by modules, CPT363-2 adds a course blog (`cpt363-intermediate/blog`), and CPT363-3 is organised by weekly units (`cpt363-advanced/weekly-units`).
+
+### Adding a Course
+
+1. Copy an existing course folder, such as `02.cpt363-basic`, and rename it (or use **Pages → Add** with the Subsite page type, or the Course page type, which uses a `course.md` file as in Grav Helios Course Hub)
+2. Set its **Subsite Title** and card settings
+3. Edit its pages, sidebar, footer and header image
+
+### Each Course's Pages
+
+Within a course, the Home page, Modules, course blog, reminders and pages work as in the Grav Open Course Hub – see its [Course Home Page](https://github.com/hibbitts-design/grav-skeleton-course-hub#course-home-page), [Modules](https://github.com/hibbitts-design/grav-skeleton-course-hub#modules) and [Course Blog](https://github.com/hibbitts-design/grav-skeleton-course-hub#course-blog) setup. Each course can have its own blog, and its sidebar shows only that blog's tags and archives.
+
+Each course also has its own shared parts, which don't appear in the menu:
+
+- **Sidebar** (`sidebar`), **Footer** (`footer`) and **Header image** (`headerimage`)
+- **Favicon** (`favicon`, optional) – the course's own browser tab icon, as in `cpt363-advanced`
+
+When a course leaves one out, the site-wide version is used.
+
+### Sharing Content Between Courses
+
+To include a page from one course in another, add `[plugin:page-inject](/cpt363-basic/resources)` with the page's route. Edits to the original then appear in every course that includes it.
+
+### Theme Options
+
+Under **Themes → My Theme** (see the [Bootstrap4 Open Matter README](https://github.com/hibbitts-design/grav-theme-bootstrap4-open-matter#theme-options) for every option):
+
+- **Visual Style** – Theme Style (2026 Modern, 2026 Refresh or Classic) and Dark Mode (off, on, or following the visitor's system)
+- **Header** – Header Image Height (Standard, Slim, Standard on home pages with slim or hidden elsewhere, or Hidden) and the NavBar's look, colour, position and breakpoint
+- **Site options** – a chromeless site (no menu, sidebar or footer), menu dropdowns, and a Creative Commons license
+- **Custom Menu Items** – extra NavBar links
+- **Git Sync Link** – see below
+
+> [!TIP]
+> The slim header shows only the middle of the image, so landscapes, textures, or photos with a centred subject work best.
+
+To get the latest My Theme options on a site created before Open MultiCourse Hub 2.5.5, replace everything from `form:` in `user/themes/mytheme/blueprints.yaml` with:
+
+```yaml
+extends@:
+  type: bootstrap4-open-matter/blueprints
+  context: 'themes://'
+```
+
+### Embedding in Your LMS
+
+Add one of these to any page's address to show only its content, without the menu, sidebar or footer, ready to embed in a Canvas, Moodle, Brightspace or Blackboard page:
+
+| Add to the address | For example |
+|---|---|
+| `/chromeless:true` | `https://yoursite.com/cpt363-basic/home/chromeless:true` |
+| `?embedded=true` | `https://yoursite.com/cpt363-basic/home?embedded=true` (carried forward as you follow links) |
+
+Each course's `lms-home` page shows just that course's reminders and preparations, ready to embed as your LMS course's home page. For every option, see the theme's [Page URL Parameters](https://github.com/hibbitts-design/grav-theme-bootstrap4-open-matter#page-url-parameters).
+
+### Git Sync and "Edit this Page"
+
+1. Set up Git Sync in the Admin Panel (its own menu item in Grav 2, or **Plugins → Git Sync** in Grav 1.7), with a repository on GitHub, GitLab, Bitbucket or your own server
+2. Under **Themes → My Theme → Git Sync Link**, choose where the link appears and whether it views or edits each page's source
+
+To hide the link on one page, add `?edit_link=false` to its address.
+
+### Callouts and Shortcodes
+
+Start a blockquote with `> [!NOTE]`, `> [!TIP]`, `> [!IMPORTANT]`, `> [!WARNING]` or `> [!CAUTION]` for a callout; the `cpt363-intermediate` Home page's announcement shows an example.
+
+For course content, wrap it in one of these shortcodes, such as `[objectives]...[/objectives]` (see Week 1 of `cpt363-advanced`). Each one except `[excerpt]` can have its own heading, such as `[objectives title="By the end of this week"]`:
+
+| Shortcode | Default heading |
+|---|---|
+| `[objectives]` | Learning Objectives |
+| `[key-takeaways]` | Key Takeaways |
+| `[reflection]` | Reflection |
+| `[definition]` | Definition |
+| `[example]` | Example |
+| `[case-study]` | Case Study |
+| `[project-brief]` | Project Brief |
+| `[process-note]` | Process Note |
+| `[feedback-requested]` | Feedback Requested |
+| `[exercise]` | Interactive Activity |
+| `[announcement]` | Announcement (styled as Important, or set `type="note"`, `"tip"`, `"warning"` or `"caution"`) |
+| `[references]` | References |
+| `[excerpt]` | – (a quoted passage) |
+
+These are the same as in Grav Helios Course Hub, so content moves across unchanged.
+
+For embeds and more:
+
+| Shortcode | What it adds |
+|---|---|
+| `[googleslides url="..."]` | Google Slides, 16:9 (add `ratio="4:3"` for 4:3) |
+| `[pdf url="..."]` | A PDF viewer (add `ratio="portrait"` for letter or A4 pages) |
+| `[iframe url="..."]` | Any embeddable page, 16:9 |
+| `[h5p url="..."]` | H5P interactive content |
+| `[embedly url="..."]` | A link card from Embedly |
+| `[linkpreviewcard url="..."]` | A link card made on your own site, without Embedly |
+| `[topics]...[/topics]` | An A–Z topics index, from single-letter headings (`## A`, `## B`, …) inside it; see `cpt363-intermediate/topics` |
+| `[badge label="..."]`, `[button label="..." url="..."]` | Badges and buttons |
+| `[showifembedded]`, `[hideifembedded]` | Content shown only, or never, when the page is embedded |
+
+Add `title="..."` to the Google Slides, PDF, iframe and H5P shortcodes, so screen readers can say what each embed is. For every shortcode, see the [Bootstrap4 Open Matter README](https://github.com/hibbitts-design/grav-theme-bootstrap4-open-matter#what-sets-it-apart).
+
+### Search
+
+The SimpleSearch plugin adds a "Search course..." box to each course's sidebar that searches just that course; the **/** key jumps to it. With the homepage's **Show Search Box** on, a search box there searches all courses. To keep a page out of the results, add `simplesearch: process: false` to its frontmatter, as each course's `lms-home` page does.
 
 ## Requirements
 

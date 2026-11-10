@@ -116,6 +116,17 @@ The example courses each show different features: CPT363-1 is organised by modul
 2. Set its **Subsite Title** and card settings
 3. Edit its pages, sidebar, footer and header image
 
+### Give a Course Its Own Address
+
+Want a course to open at its own address, such as `cpt363.example.edu`? Point a second domain or subdomain at this site's folder (your web host's control panel can do this), then create `user/env/<that address>/config/system.yaml` with:
+
+```yaml
+home:
+  alias: '/my-course/home'
+```
+
+The site's main address still opens as before, and both addresses share the same pages. A `site.yaml` beside it can also give that address its own description and share image – see Grav's [Environment Configuration](https://learn.getgrav.org/2/advanced/environment-config).
+
 ### Each Course's Pages
 
 Within a course, the Home page, Modules, course blog, reminders and pages work as in the Grav Open Course Hub – see its [Course Home Page](https://github.com/hibbitts-design/grav-skeleton-course-hub#course-home-page), [Modules](https://github.com/hibbitts-design/grav-skeleton-course-hub#modules) and [Course Blog](https://github.com/hibbitts-design/grav-skeleton-course-hub#course-blog) setup. Each course can have its own blog, and its sidebar shows only that blog's tags and archives.

@@ -26,6 +26,17 @@ The example courses show each one: [CPT363-1](/cpt363-basic/modules) is organise
 
 Have a course in Canvas, Moodle, Brightspace, or Blackboard? Export it as a Common Cartridge file, and the free [Common Cartridge Converter](https://common-cartridge-converter.hibbittsdesign.org/) (beta) turns it into a new course for this site, organised by modules – see [an example conversion](https://demo.hibbittsdesign.org/grav-open-course-hub-common-cartridge-it2dda/).
 
+## Give a Course Its Own Address
+
+Want a course to open at its own address, such as `cpt363.example.edu`? Point a second domain or subdomain at this site's folder (your web host's control panel can do this), then create `user/env/<that address>/config/system.yaml` with:
+
+```yaml
+home:
+  alias: '/my-course/home'
+```
+
+The site's main address still opens as before, and both addresses share the same pages. A `site.yaml` beside it can also give that address its own description and share image – see Grav's [Environment Configuration](https://learn.getgrav.org/2/advanced/environment-config).
+
 ## What Else Can the Open MultiCourse Hub do for You? ##
 Learn more about the capabilities of the Open MultiCourse Hub project in its [README on GitHub](https://github.com/hibbitts-design/grav-skeleton-multicourse-hub#readme).
 

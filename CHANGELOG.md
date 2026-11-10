@@ -3,6 +3,7 @@
 
 1. [](#improved)
     * Footer: the links to hibbittsdesign.org and Grav use https (the http address for hibbittsdesign.org doesn't load)
+    * README and each example course's Read Me page: how to give a course its own address (such as a subdomain), with Grav's environment configuration
 
 # v2.8.5
 ## 10/22/2026

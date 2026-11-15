@@ -4,7 +4,7 @@
 1. [](#improved)
     * Footer: the links to hibbittsdesign.org and Grav use https (the http address for hibbittsdesign.org doesn't load)
     * README and each example course's Read Me page: how to give a course its own address (such as a subdomain), with Grav's environment configuration
-    * README: points to Grav Open Course Space, the free successor, for new course sites on Grav 2
+    * README: a notice that it will soon be in maintenance mode, pointing to Grav Open Course Space, the free successor, and how existing courses move across
 1. [](#bugfix)
     * Module 3 and Module 5 videos, which are no longer on YouTube, are now Nielsen Norman Group's Customer Journey Mapping 101 and AmberlightUX's Usability Testing
 
